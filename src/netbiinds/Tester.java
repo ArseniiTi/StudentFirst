@@ -25,6 +25,15 @@ public class Tester {
         System.out.println(software_desi.getColor());
         System.out.println(list[2].getColor());
     }
+    private int value;
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
 
 }
 
